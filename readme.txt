@@ -1,0 +1,1 @@
+A selection of rule scrpts for maperitive under development
