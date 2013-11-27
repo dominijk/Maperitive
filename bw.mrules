@@ -1,0 +1,26 @@
+features
+	areas
+		building: building
+		red: building=school
+		red: amenity=school
+	
+	lines
+		building : building
+		
+properties
+	map-background-color    : #FFFFFF
+	line-style : none
+rules
+	target : red
+		define
+			fill-color : red
+			line-color : black
+		draw : fill
+		draw : line
+	target : building
+		define
+			fill-color : #5D86A0
+			line-color : black
+			line-width : 5
+		draw : line
+		draw : fill
